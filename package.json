@@ -1,0 +1,20 @@
+{
+  "name": "minipeekaboo",
+  "version": "2.0.0",
+  "description": "Python版Peekaboo克隆，兼容 macOS 12+ (Sonoma/Monterey/Ventura)。836行代码，19个命令，100%覆盖Peekaboo核心功能。",
+  "author": "pengrambo3-tech",
+  "license": "MIT-0",
+  "keywords": ["peekaboo", "macos", "ui-automation", "screenshot", "quartz"],
+  "main": "scripts/minipeekaboo.py",
+  "bin": {
+    "minipeekaboo": "scripts/minipeekaboo.py"
+  },
+  "dependencies": {
+    "pyobjc-framework-Quartz": ">=9.0"
+  },
+  "engines": {
+    "python": ">=3.8"
+  },
+  "os": ["darwin"],
+  "changelog": "v2.0: 19命令，Quartz拖拽，AI分析(OpenAI/Claude/豆包)，space/swipe/menu自然语言"
+}
